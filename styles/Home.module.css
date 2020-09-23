@@ -1,0 +1,69 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  /* min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #aaa;
+  /* padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+
+
+.description {
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.code {
+  background: #fafafa;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+.card {
+  background-color: #fff;
+  padding: 0px 56px;
+  width: 400px;
+  height: 700px;
+  text-align: center;
+}
+
+.card_header {
+ padding: 32px 0;
+}
+.card_title {
+  margin: 32px 0 16px 0;
+  font-size: 40px;
+}
+.card_text {
+  line-height: 24px;
+}
+.image {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+  object-fit: cover;
+  width: 100%;
+  border-radius: 4px;
+}
+@media (max-width: 512px) {
+  .card {
+    width: 100%;
+    height: 100%;
+  }
+}
